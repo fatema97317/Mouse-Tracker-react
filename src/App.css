@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to right, #ff6b6b, #4ecdc4);
+}
+
+.cursor {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 50%;
+  background-color: transparent;
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
