@@ -12,7 +12,9 @@ function App() {
 
     window.addEventListener('mousemove', handleMouse);
 
-
+    return () => {
+      window.removeEventListener('mousemove', handleMouse)
+    }
   }, [])
   return (
     <div className="App">
